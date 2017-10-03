@@ -1,0 +1,38 @@
+
+body{
+      background-image: url("bfont.jpg");
+      margin: 0;
+      width: 1000px;
+      height:700px;
+    }
+#main{
+    background-color:white;
+    width: 500px;
+    height: 300px;
+    margin-left:450px;
+    margin-top: 200px;
+    box-shadow: 10px 10px 5px #888888;
+    display: flex;
+    flex-wrap: wrap;
+    }
+   #one,#two,#three,#four,#five,#six,#seven,#eigth,#nine{
+       margin-left: 3px;
+       margin-top: 10px;
+       padding-top: 30px;   
+       width: 32% ;
+       height: 50px ;
+       background-color:lightgrey;
+       cursor: pointer;
+   }
+   p{
+       font-size: 30px;
+       font-weight: bold;
+       margin-left: 600px;
+    
+   }
+   button{
+       width:65px;
+       height: 35px;
+       background-color: lightgrey;
+       margin-left: 450px;
+   }
